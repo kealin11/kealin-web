@@ -24,13 +24,13 @@ const Navbar = () => {
   return (
     <header className="fixed inset-x-0 top-0 z-50">
       <div className="bg-[linear-gradient(180deg,rgba(4,8,4,0.72),rgba(4,8,4,0.18),transparent)] backdrop-blur-md">
-        <div className="mx-auto flex max-w-[1720px] items-center justify-between gap-6 px-4 py-5 sm:px-6 lg:px-8">
+        <div className="mx-auto flex max-w-[1720px] items-center justify-between gap-4 px-4 py-4 sm:gap-6 sm:py-5 sm:px-6 lg:px-8">
           <a
             href="#hero"
-            className="flex shrink-0 items-center gap-3 text-[1.85rem] font-bold tracking-[-0.04em] text-[#8dff69]"
+            className="flex shrink-0 items-center gap-2.5 text-[1.6rem] font-bold tracking-[-0.04em] text-[#8dff69] sm:gap-3 sm:text-[1.85rem]"
           >
-            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#8dff69]/10 text-[#8dff69]">
-              <CodeXml size={22} strokeWidth={2.4} />
+            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#8dff69]/10 text-[#8dff69] sm:h-10 sm:w-10">
+              <CodeXml size={20} strokeWidth={2.4} />
             </span>
             <span>Kealin</span>
           </a>

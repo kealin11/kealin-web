@@ -11,6 +11,7 @@
     html {
         font-family: var(--font-display);
         scroll-behavior: smooth;
+        overflow-x: hidden;
     }
 
     body {
@@ -19,6 +20,10 @@
         -moz-osx-font-smoothing: grayscale;
         background-color: black;
         color: #ffffff;
+        overflow-x: hidden;
+    }
+
+    #root {
         overflow-x: hidden;
     }
 
@@ -112,11 +117,13 @@
             filter 300ms ease;
     }
 
-    .interactive-card:hover {
-        transform: translateY(-6px);
-        border-color: rgba(141, 255, 105, 0.2);
-        box-shadow: 0 22px 55px rgba(0, 0, 0, 0.28);
-        filter: brightness(1.03);
+    @media (hover: hover) {
+        .interactive-card:hover {
+            transform: translateY(-6px);
+            border-color: rgba(141, 255, 105, 0.2);
+            box-shadow: 0 22px 55px rgba(0, 0, 0, 0.28);
+            filter: brightness(1.03);
+        }
     }
 
     .interactive-chip {
@@ -127,10 +134,12 @@
             color 220ms ease;
     }
 
-    .interactive-chip:hover {
-        transform: translateY(-2px);
-        border-color: rgba(141, 255, 105, 0.26);
-        background-color: rgba(141, 255, 105, 0.12);
-        color: #ffffff;
+    @media (hover: hover) {
+        .interactive-chip:hover {
+            transform: translateY(-2px);
+            border-color: rgba(141, 255, 105, 0.26);
+            background-color: rgba(141, 255, 105, 0.12);
+            color: #ffffff;
+        }
     }
 }
