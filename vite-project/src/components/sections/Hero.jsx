@@ -33,7 +33,7 @@ const Hero = () => {
 
       <div className="relative mx-auto max-w-[1720px] overflow-hidden rounded-[30px] border border-[#8dff69]/10 bg-[radial-gradient(circle_at_top_left,_rgba(27,54,22,0.36),_rgba(0,0,0,0.95)_45%)] px-5 pb-14 pt-8 shadow-[0_25px_80px_rgba(0,0,0,0.45)] sm:rounded-[36px] sm:px-8 lg:min-h-[calc(100vh-7rem)] lg:px-12 lg:pt-10 xl:px-16">
         <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
-          <ScrollReveal className="max-w-[760px] pt-2 lg:pt-12">
+          <ScrollReveal className="max-w-[760px] pt-14 sm:pt-2 lg:pt-12">
             <div className="inline-flex max-w-full items-start gap-3 rounded-full border border-[#8dff69]/20 bg-[#203c19]/78 px-4 py-3 text-sm text-white/88 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.03)] sm:items-center sm:px-6 sm:text-lg">
               <BadgeCheck
                 className="mt-0.5 shrink-0 text-white sm:mt-0"
