@@ -95,15 +95,17 @@ const Projects = () => {
                   </span>
 
                   <div className="absolute bottom-6 right-6 flex items-center gap-3">
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-flex h-14 w-14 items-center justify-center rounded-[18px] border border-white/12 bg-white/8 text-white backdrop-blur-sm transition duration-300 hover:border-[#8dff69]/30 hover:bg-[#8dff69]/12 hover:text-[#8dff69]"
-                      aria-label={`Open ${project.title} live project`}
-                    >
-                      <ArrowUpRight size={22} />
-                    </a>
+                    {project.liveUrl ? (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex h-14 w-14 items-center justify-center rounded-[18px] border border-white/12 bg-white/8 text-white backdrop-blur-sm transition duration-300 hover:border-[#8dff69]/30 hover:bg-[#8dff69]/12 hover:text-[#8dff69]"
+                        aria-label={`Open ${project.title} live project`}
+                      >
+                        <ArrowUpRight size={22} />
+                      </a>
+                    ) : null}
                     {project.githubUrl ? (
                       <a
                         href={project.githubUrl}

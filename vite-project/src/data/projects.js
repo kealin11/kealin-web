@@ -7,7 +7,7 @@ export const projects = [
       "Designed and built a secure web-based attendance platform used weekly by church staff, with role-based login, real-time check-ins, and a mobile-friendly interface for tablets and phones.",
     tags: ["React 19", "Next.js", "TypeScript", "Authentication"],
     metric: "Built for weekly real-world usage",
-    liveUrl: "https://kids-attendance-tracker.vercel.app/",
+    liveUrl: null,
     githubUrl: "https://github.com/kealin11/kids-attendance-tracker",
   },
   {
