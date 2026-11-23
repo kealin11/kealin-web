@@ -49,13 +49,13 @@ const About = () => {
             </div>
 
             <h2 className="mt-10 max-w-[11ch] text-[3.2rem] leading-[1.06] font-light tracking-[-0.05em] text-white sm:text-[4.4rem] lg:text-[5.5rem] xl:text-[6rem]">
-              Building Real Products While I Study
+              Building Real Products, Ready to Work
             </h2>
 
             <div className="mt-10 space-y-8 text-lg leading-[1.65] text-white/72 sm:text-[1.55rem] lg:text-[1.75rem] lg:leading-[1.62]">
               <p>
-                I&apos;m a final-year BSc IT student in Software Engineering
-                with hands-on experience building and shipping production
+                I&apos;m a BSc IT Software Engineering graduate with hands-on
+                experience building and shipping production
                 systems for real clients. My strongest tools are React,
                 Next.js, TypeScript, JavaScript, and Java.
               </p>
@@ -139,12 +139,12 @@ const About = () => {
 
           <div className="relative">
             <a
-              href="/Kealin%20Daniels%20CV2.pdf"
+              href="/Kealin_J_Daniels_Resume.pdf"
               download
               className="inline-flex min-h-16 items-center gap-4 rounded-full bg-white px-10 text-lg font-medium text-black transition duration-300 hover:-translate-y-0.5 hover:bg-[#f3f7ef] sm:min-h-18 sm:px-12 sm:text-[1.7rem]"
             >
               <Download size={24} />
-              <span>Download CV</span>
+              <span>Download Resume</span>
             </a>
 
             <div className="mx-auto mt-24 max-w-[980px] text-center">

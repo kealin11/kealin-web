@@ -66,7 +66,7 @@ const Navbar = () => {
               href="#contact"
               className="inline-flex min-h-16 items-center justify-center rounded-[22px] bg-white px-10 text-[1.2rem] font-semibold text-black transition duration-300 hover:-translate-y-0.5 hover:bg-[#f4f7f1]"
             >
-              Hire Me
+              Open to Work
             </a>
           </div>
 
@@ -110,7 +110,7 @@ const Navbar = () => {
                 onClick={closeMenu}
                 className="mt-2 inline-flex min-h-14 items-center justify-center rounded-[20px] bg-white px-6 text-base font-semibold text-black"
               >
-                Hire Me
+                Open to Work
               </a>
             </nav>
           </div>

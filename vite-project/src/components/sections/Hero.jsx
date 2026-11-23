@@ -41,8 +41,7 @@ const Hero = () => {
                 fill="currentColor"
               />
               <span className="min-w-0 whitespace-normal break-words">
-                FullStack Developer &amp; Java Enthusiast | Based in
-                Johannesburg, South Africa
+                BSc IT Graduate | Open to Work | Johannesburg, South Africa
               </span>
             </div>
 
@@ -51,7 +50,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-6 max-w-[720px] text-base leading-[1.7] text-white/72 sm:mt-8 sm:text-[1.8rem] lg:text-[2rem] lg:leading-[1.55]">
-              Final-year Software Engineering student with demonstrated
+              BSc IT Software Engineering graduate with demonstrated
               experience shipping production systems for real clients. Skilled
               in React, Next.js, and Java, with hands-on exposure to full
               deployment pipelines from development through to hosting and

@@ -51,8 +51,8 @@ const Contact = () => {
             Let&apos;s Work Together
           </h2>
           <p className="mx-auto mt-4 max-w-[960px] text-base leading-[1.7] text-white/56 sm:mt-5 sm:text-[1.5rem] lg:text-[1.8rem]">
-            Have a project in mind? Let&apos;s discuss how we can bring your
-            ideas to life.
+            I&apos;m open to work in software engineering, full-stack development,
+            AI/ML, and contract roles. Have a project or opportunity in mind?
           </p>
         </ScrollReveal>
 
@@ -137,9 +137,9 @@ const Contact = () => {
               Let&apos;s Connect
             </h3>
             <p className="mt-4 max-w-[28ch] text-base leading-[1.7] text-white/58 sm:mt-5 sm:max-w-[24ch] sm:text-[1.45rem]">
-              I&apos;m always open to discussing new projects, creative ideas,
-              or opportunities to be part of your vision. Feel free to reach
-              out.
+              I&apos;m open to graduate and junior software engineering roles,
+              AI/ML opportunities, and freelance projects. Let&apos;s discuss
+              how I can contribute to your team or bring your vision to life.
             </p>
 
             <div className="mt-8 space-y-4 sm:mt-10 sm:space-y-6">

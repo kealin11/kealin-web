@@ -33,6 +33,17 @@ export const projects = [
     githubUrl: "https://github.com/kealin11/allegian-guardians-web",
   },
   {
+    id: "purpose-recycling",
+    category: "Business Website",
+    title: "Purpose Recycling SA",
+    description:
+      "Created a professional website for Purpose-Recycling SA, presenting the company's recycling services and providing customers with a clear, responsive way to learn about and enquire through the business.",
+    tags: ["JavaScript", "HTML", "CSS", "Responsive Design"],
+    metric: "Live recycling company website",
+    liveUrl: "https://purpose-recycling-web.vercel.app",
+    githubUrl: "https://github.com/kealin11/purpose-recycling-web",
+  },
+  {
     id: "eot-ministries",
     category: "Organization Website",
     title: "EOT Ministries",
